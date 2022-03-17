@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.country {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: aqua;
+  margin: 10px;
+  width: 50%;
+}
