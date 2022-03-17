@@ -11,7 +11,7 @@ const Countries = () => {
             .then(data => setCountries(data));
     },[])
     return (
-        <div>
+        <div className='country-container'>
             {
                 countries.map(country => <Country country = {country} name = {country.name}></Country>)
             }
